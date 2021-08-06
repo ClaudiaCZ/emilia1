@@ -13,4 +13,4 @@ app.get('/music', (req, res) => res.sendFile(path.join(__dirname, 'views', 'musi
 
 app.get('/contact', (req, res) => res.sendFile(path.join(__dirname, 'views', 'contact.html')))
 
-app.listen(port,() => console.log('Servidor ejecutado en el puerto ' + port));
+app.listen(port,() => console.log('Servidor ejecutado en el http://localhost' + port));
