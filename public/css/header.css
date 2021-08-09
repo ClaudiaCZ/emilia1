@@ -1,6 +1,4 @@
-header{
-
-}
+/* header del home */
 
 header nav{
     margin-left: 60px;
@@ -23,4 +21,33 @@ header nav ul li a{
 
 header nav a{
       color: black;
+}
+
+/*header horizontal*/
+
+header.row nav{
+    text-align: right;
+    
+}
+
+header.row nav.menu{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header.row nav ul li{
+    display: inline-block;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header.row nav ul li:last-child{
+   border-right: 1px solid black;
+}
+
+header.row nav ul li a{
+    color: black;  
+    line-height: 20px;
 }
